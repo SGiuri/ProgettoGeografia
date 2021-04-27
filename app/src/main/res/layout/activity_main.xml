@@ -7,7 +7,6 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Progettto Geografia"
@@ -16,13 +15,25 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
-        android:id="@+id/textView"
+    <Switch
+        android:id="@+id/switch2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="BIXON NON ESISTE"
-        tools:layout_editor_absoluteX="59dp"
-        tools:layout_editor_absoluteY="89dp" />
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="68dp"
+        android:text="il lughy"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="144dp"
+        android:text="guGAUAGAJBU3WD"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button"
@@ -38,20 +49,12 @@
         android:id="@+id/button4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="push and scaggia will be schifo"
-        app:layout_constraintBottom_toTopOf="@+id/textView4"
+        android:text="FBI"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.616"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button2" />
-
-    <Button
-        android:id="@+id/button4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="248dp"
-        android:layout_marginEnd="144dp"
-        android:text="GIUAGUIONOARRARARSA"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.734" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
