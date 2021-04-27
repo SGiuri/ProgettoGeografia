@@ -35,7 +35,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/bruh"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="push and scaggia will be schifo"
@@ -45,7 +45,7 @@
         app:layout_constraintTop_toBottomOf="@+id/button2" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/bruh"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="248dp"
